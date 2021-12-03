@@ -7,7 +7,7 @@ import com.base.Perro;
 
 //encapsulamiento:atributos private accesibles con getter y setter
 //mod de acceso:public/private/protected/default
-//sobrecarga: 2 metodos con diferente nº o tipo de atributos
+//sobrecarga: 2 metodos con diferente nÂº o tipo de atributos
 //sobreescritura : clase hija con el mismo metodo que la padre
 //herencia: extends- java herencia simple
 public class Principal {
@@ -37,7 +37,7 @@ public class Principal {
 		Ballena ballena1=new Ballena();
 		
 		Animal[] zoo={gato1,perro1,ballena1};
-		zoo[1].correr();//polimorfismo basado en herencia cambiando[]entre 0-1-2
+		zoo[1].correr();//polimorfismo basado en herencia cambiando[]entre 0-1-2 obtienes la forma de correr de cada uno de los 3 animales.
 		
 		
 		
